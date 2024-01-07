@@ -27,7 +27,7 @@ print('Save dataframe to excel...')
 
 df.to_excel(output_file, sheet_name='Report', startrow=4)
 
-print('Save dataframe to done...')
+print('Save dataframe done...')
 
 ## PART 2 - GRAFIK
 wb = load_workbook(output_file)
